@@ -1,4 +1,4 @@
 # Databases
 Databases class
 
-[./Diagram.png]
+![Diagram lab1](./Diagram.png)
