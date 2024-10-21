@@ -32,3 +32,5 @@ INSERT INTO client(client_first_name, client_last_name, email)
 VALUES	("Blaga", "Denis", "blagadenis@apple.com"),
 		("Mark", "Zuck", "zuck@meta.com");
   
+INSERT INTO invoice(invoice_date, client_id) 
+VALUES  ("2024-10-21", 2);
