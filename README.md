@@ -1,6 +1,4 @@
 # Databases
 Databases class
 
-![gif](https://giphy.com/gifs/tech-technology-mograph-pOEbLRT4SwD35IELiQ)
-
-<!-- <iframe src="https://giphy.com/embed/pOEbLRT4SwD35IELiQ" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/tech-technology-mograph-pOEbLRT4SwD35IELiQ">via GIPHY</a></p> -->
+![Preview Gif](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExemRmOTVtMmJyeTNmcm16NzB3NDJvMnM0NnJ6MHRyOW8wdms2MjZ5MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o72EZplI5RBdJU17q/giphy.gif)
