@@ -49,3 +49,35 @@ SELECT SUM(product_invoice.quantite)
     WHERE product_invoice.productCode = 6
     AND YEAR(invoice.invoiceDate) = '2023';
 
+
+SELECT invoice.clientId, COUNT(invoice.invoiceNum), client.clientFirstName
+    FROM invoice
+    JOIN client ON invoice.clientId = client.clientId
+    GROUP BY clientId;
+
+
+SELECT productCost, productName
+    FROM product
+    WHERE productCost = (
+        SELECT MIN(productCost) FROM product
+    );
+
+INSERT INTO client (clientId, clientLastName, clientFirstName, mail, telephone, roadNum, roadName, postalCode, city, country)
+VALUES (1, 'Denis', 'Boss', 'denis@denis.net', '1-737-387-9387x1591', 'Bucharest', 'Corwin Cliff', '40702', 'America', 'London');
+
+SELECT invoice.clientId, COUNT(invoice.invoiceNum), client.clientFirstName
+    FROM invoice
+    LEFT JOIN client ON client.clientId = invoice.clientId
+    GROUP BY clientId, client.clientFirstName
+    ORDER BY COUNT(invoice.invoiceNum);
+
+-- 52
+-- Jacobs
+-- Issac
+-- janick10@example.net
+-- 1-802-644-9357x25854
+-- Circles
+-- Mills Oval
+-- 09196
+-- North Jovani
+-- Kyrgyz Republic
